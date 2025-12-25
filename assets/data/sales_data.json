@@ -1,0 +1,197 @@
+[
+  {
+    "order_id": "ORD-2025-04-001",
+    "customer_id": "CUS-001",
+    "order_date": "2025-04-01T09:15:30",
+    "delivery_date": "2025-04-03T14:30:00",
+    "status": "Delivered",
+    "payment_status": "Partially Paid",
+    "payment_method": "Credit",
+    "sales_person": "EMP-005",
+    "total_amount": 45650.00,
+    "tax_amount": 6300.00,
+    "discount_amount": 2500.00,
+    "net_amount": 49450.00,
+    "items": [
+      {
+        "product_id": "PRD-001",
+        "quantity": 5,
+        "unit_price": 4500.00,
+        "tax_rate": 16.0,
+        "discount_percent": 5.0,
+        "total": 21375.00
+      }
+    ],
+    "notes": "Regular monthly order",
+    "delivery_address": {
+      "street": "Mombasa Road",
+      "building": "Auto Plaza Building",
+      "city": "Nairobi",
+      "region": "Nairobi County",
+      "postal_code": "00100"
+    },
+    "approval": {
+      "required": false,
+      "status": "Not Required",
+      "approved_by": null,
+      "approval_date": null,
+      "comments": null
+    }
+  },
+  {
+    "order_id": "ORD-2025-04-002",
+    "customer_id": "CUS-002",
+    "order_date": "2025-04-01T11:30:45",
+    "delivery_date": "2025-04-05T10:00:00",
+    "status": "Processing",
+    "payment_status": "Not Paid",
+    "payment_method": "Credit",
+    "sales_person": "EMP-002",
+    "total_amount": 154900.00,
+    "tax_amount": 21400.00,
+    "discount_amount": 7745.00,
+    "net_amount": 168555.00,
+    "items": [
+      {
+        "product_id": "PRD-002",
+        "quantity": 15,
+        "unit_price": 7200.00,
+        "tax_rate": 16.0,
+        "discount_percent": 5.0,
+        "total": 102600.00
+      }
+    ],
+    "notes": "Rush order for VIP customer",
+    "delivery_address": {
+      "street": "Uhuru Highway",
+      "building": "Premium Towers",
+      "city": "Nairobi",
+      "region": "Nairobi County",
+      "postal_code": "00100"
+    },
+    "approval": {
+      "required": true,
+      "status": "Approved",
+      "approved_by": "USR-001",
+      "approval_date": "2025-04-01T14:25:10",
+      "comments": "Approved due to customer status"
+    }
+  },
+  {
+    "order_id": "ORD-2025-03-028",
+    "customer_id": "CUS-001",
+    "order_date": "2025-03-28T14:20:15",
+    "delivery_date": "2025-03-30T10:00:00",
+    "status": "Delivered",
+    "payment_status": "Paid",
+    "payment_method": "Cash",
+    "sales_person": "EMP-005",
+    "total_amount": 27800.00,
+    "tax_amount": 3850.00,
+    "discount_amount": 950.00,
+    "net_amount": 32100.00,
+    "items": [
+      {
+        "product_id": "PRD-001",
+        "quantity": 3,
+        "unit_price": 4500.00,
+        "tax_rate": 16.0,
+        "discount_percent": 3.0,
+        "total": 15660.00
+      }
+    ],
+    "notes": "Standard delivery",
+    "delivery_address": {
+      "street": "Mombasa Road",
+      "building": "Auto Plaza Building",
+      "city": "Nairobi",
+      "region": "Nairobi County",
+      "postal_code": "00100"
+    },
+    "approval": {
+      "required": false,
+      "status": "Not Required",
+      "approved_by": null,
+      "approval_date": null,
+      "comments": null
+    }
+  },
+  {
+    "order_id": "ORD-2025-03-027",
+    "customer_id": "CUS-002",
+    "order_date": "2025-03-27T10:45:30",
+    "delivery_date": "2025-03-29T15:00:00",
+    "status": "Processing",
+    "payment_status": "Not Paid",
+    "payment_method": "Credit",
+    "sales_person": "EMP-002",
+    "total_amount": 68000.00,
+    "tax_amount": 9450.00,
+    "discount_amount": 1450.00,
+    "net_amount": 78900.00,
+    "items": [
+      {
+        "product_id": "PRD-002",
+        "quantity": 8,
+        "unit_price": 7200.00,
+        "tax_rate": 16.0,
+        "discount_percent": 2.0,
+        "total": 67392.00
+      }
+    ],
+    "notes": "Urgent delivery requested",
+    "delivery_address": {
+      "street": "Uhuru Highway",
+      "building": "Premium Towers",
+      "city": "Nairobi",
+      "region": "Nairobi County",
+      "postal_code": "00100"
+    },
+    "approval": {
+      "required": true,
+      "status": "Approved",
+      "approved_by": "USR-001",
+      "approval_date": "2025-03-27T11:15:00",
+      "comments": "Approved"
+    }
+  },
+  {
+    "order_id": "ORD-2025-03-026",
+    "customer_id": "CUS-001",
+    "order_date": "2025-03-26T09:30:00",
+    "delivery_date": "2025-03-28T14:00:00",
+    "status": "Delivered",
+    "payment_status": "Paid",
+    "payment_method": "M-Pesa",
+    "sales_person": "EMP-005",
+    "total_amount": 46800.00,
+    "tax_amount": 6500.00,
+    "discount_amount": 900.00,
+    "net_amount": 54200.00,
+    "items": [
+      {
+        "product_id": "PRD-001",
+        "quantity": 6,
+        "unit_price": 4500.00,
+        "tax_rate": 16.0,
+        "discount_percent": 2.0,
+        "total": 31428.00
+      }
+    ],
+    "notes": "Repeat customer order",
+    "delivery_address": {
+      "street": "Mombasa Road",
+      "building": "Auto Plaza Building",
+      "city": "Nairobi",
+      "region": "Nairobi County",
+      "postal_code": "00100"
+    },
+    "approval": {
+      "required": false,
+      "status": "Not Required",
+      "approved_by": null,
+      "approval_date": null,
+      "comments": null
+    }
+  }
+]

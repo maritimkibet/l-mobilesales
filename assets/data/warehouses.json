@@ -1,0 +1,82 @@
+[
+  {
+    "id": "WH-001",
+    "name": "Nairobi Central Warehouse",
+    "code": "NCW",
+    "type": "Main",
+    "address": {
+      "street": "Enterprise Road",
+      "building": "Industrial Area Block B",
+      "city": "Nairobi",
+      "region": "Nairobi County",
+      "postal_code": "00507"
+    },
+    "location": {
+      "latitude": -1.308971,
+      "longitude": 36.851523
+    },
+    "manager": "EMP-011",
+    "contact_phone": "+254-20-5551234",
+    "email": "warehouse.nairobi@leysco.co.ke",
+    "operating_hours": "8:00 AM - 6:00 PM",
+    "capacity": {
+      "total_area_sqm": 5000,
+      "storage_capacity_units": 50000,
+      "utilized_percentage": 72
+    },
+    "zones": [
+      {
+        "id": "Z-001",
+        "name": "Lubricants Zone",
+        "code": "LUB"
+      },
+      {
+        "id": "Z-002",
+        "name": "Filters Zone",
+        "code": "FIL"
+      }
+    ],
+    "active": true,
+    "notes": "Main distribution center for all products"
+  },
+  {
+    "id": "WH-002",
+    "name": "Mombasa Regional Warehouse",
+    "code": "MRW",
+    "type": "Regional",
+    "address": {
+      "street": "Port Reitz Road",
+      "building": "Changamwe Industrial Park",
+      "city": "Mombasa",
+      "region": "Mombasa County",
+      "postal_code": "80100"
+    },
+    "location": {
+      "latitude": -4.034396,
+      "longitude": 39.647446
+    },
+    "manager": "EMP-012",
+    "contact_phone": "+254-41-2224567",
+    "email": "warehouse.mombasa@leysco.co.ke",
+    "operating_hours": "8:00 AM - 5:00 PM",
+    "capacity": {
+      "total_area_sqm": 3000,
+      "storage_capacity_units": 30000,
+      "utilized_percentage": 60
+    },
+    "zones": [
+      {
+        "id": "Z-005",
+        "name": "Lubricants Zone",
+        "code": "LUB"
+      },
+      {
+        "id": "Z-006",
+        "name": "Filters Zone",
+        "code": "FIL"
+      }
+    ],
+    "active": true,
+    "notes": "Serves coastal region and export markets"
+  }
+]
